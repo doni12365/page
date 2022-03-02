@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;}
+
+header{
+    background-color: #1f2937;
+    padding: 10em 13em;
+    
+   
+}
+/* Here we have everything for links on left */
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 1cm;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: 0.5cm;
+}
+
+a{color: white;}
+#header{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: white;
+}
+
+/* Hero main text and paragraph */
+.awesome{
+position: absolute;
+width: 400px;
+top: 70px;
+left: 180px;
+font-size: 30px;
+color: white;
+
+}
+p{
+    width: 250px;
+    font-size: 16px;
+}
+
+/* button sign up */
+button{
+    background-color: #3882F6;
+    width: 1.5cm;
+    height: 0.7cm;
+    border-radius: 1.5cm;
+    
+}
+
+/*placeholder for image*/
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    position: absolute;
+    height: 150px;
+    width: 300px;
+    top: 100px;
+    left: 800px;
+    font-size: medium;
+    
+}
+
+/* main section */
+main{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+h1{text-align: center;
+    font-size: 1cm;
+}
+
+/*4 boxes in flexbox */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.square{
+    display: flex;
+    border-style: outset;
+    border-color: blue;
+height: 4cm;
+width: 4cm;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+/* quote section*/
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: black;
+    padding: 7em 13em;
+    font-family: #1F2937;
+    font-size: 20px;
+margin-top: 30px;
+}
+
+p{display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin-top: 20px ;
+    align-self: flex-end;
+    
+}
+
